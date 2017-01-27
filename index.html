@@ -5,14 +5,14 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
- <header class="main-header">
+    <header class="main-header">
       <div class="container">
           <div class="logo">
-              <a href="#" class="logo">Техномарт</a>
+              <a class="logo">Техномарт</a>
           </div>
           <div class="search">
               <form>
-                  <lable for "site-search">Поиск:</lable>
+                  <lable for="site-search">Поиск:</lable>
                   <input type="search" name="q" placeholder="Поиск по сайту" id="site-search">
               </form>
           </div>
@@ -34,7 +34,7 @@
               <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
               <div class="tel-address">
                   <span class="tel">+7 (812) 555-05-55</span>
-                  <span> class="address>"г. Санкт-Петербург, ул. Б. Кондшенная, д.19/8"></span>
+                  <span class="address">г. Санкт-Петербург, ул. Б. Кондшенная, д.19/8"></span>
               </div>
               <div class="user-block">
                   <ul>
@@ -109,31 +109,34 @@
         <h2 class="popular-goods">Популярные товары</h2>
         <a href="#">Все популярные товары</a>
     </div>
-<div class="container">
-        <article>
-            <img src="#" width="..." height="..." alt="Техномарт">
-            <div class="nav-tile-text">Перфоратор BOSCH BFG 9000</div>
-            <div class="old-price">32500 Р.</div>
-            <div class="new-price">25500 Р.</div>
-        </article>
-        <article>
-            <img src="#" width="..." height="..." alt="Техномарт">
-            <div class="nav-tile-text">Перфоратор BOSCH BFG 3000</div>
-            <div class="old-price">22500 Р.</div>
-            <div class="new-price">15500 Р.</div>
-        </article>
-        <article>
-            <img src="#" width="..." height="..." alt="Техномарт">
-            <div class="nav-tile-text">Перфоратор BOSCH BFG 6000</div>
-            <div class="old-price">30500 Р.</div>
-            <div class="new-price">25500 Р.</div>
-        </article>
-        <article>
-            <img src="#" width="..." height="..." alt="Техномарт">
-            <div class="nav-tile-text">Перфоратор BOSCH BFG 2000</div>
-            <div class="new-price">12500 Р.</div>
-        </article>
-    </div>
+        <div class="container">
+            <article>
+                <img src="#" width="..." height="..." alt="Техномарт">
+                <div class="nav-tile-text">Перфоратор BOSCH BFG 9000</div>
+                <div class="old-price">32500 Р.</div>
+                <div class="new-price">25500 Р.</div>
+            </article>
+            <article>
+                <img src="#" width="..." height="..." alt="Техномарт">
+                <div class="nav-tile-text">Перфоратор BOSCH BFG 3000</div>
+                <div class="old-price">22500 Р.</div>
+                <div class="new-price">15500 Р.</div>
+            </article>
+            <article>
+                <img src="#" width="..." height="..." alt="Техномарт">
+                <div class="nav-tile-text">Перфоратор BOSCH BFG 6000</div>
+                <div class="old-price">30500 Р.</div>
+                <div class="new-price">25500 Р.</div>
+            </article>
+            <article class="new-product">
+                <img src="#" width="..." height="..." alt="Техномарт">
+                <div class="nav-tile-text">Перфоратор BOSCH BFG 2000</div>
+                <div class="new-price">12500 Р.</div>
+                <div class="product-badge">
+                    <img src="#" class="new">
+                </div>
+            </article>
+      </div>
     <div class="container">
         <h2 class="popular-brands">Популярные производители</h2>
         <a href="#">Все производители</a>
@@ -223,7 +226,7 @@
               </ul>
             </div>
             <div class="address">
-                <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
+                <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> +7 (812) 555-05-55</p>
                 <ul>
                    <li>
                        <a href="#">Материалы</a>
@@ -247,7 +250,9 @@
                     <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
                 </section>
                 <section class="footer-copyright">
-                    <span>Обратная связь: mail@htmlacademy.ru</span>
+                    <span>Обратная связь: 
+                        <a class="e-mail">mail@htmlacademy.ru</a>
+                    </span>
                     <span>Разработано:</span>
                     <a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>
                 </section>
