@@ -1,7 +1,10 @@
-body {font-family: Cuprum Regular;
+body {
+    font-family: Cuprum Regular;
     font-size: 17px;
     line-height: 17px;
-    color: ffffff;}
+    color: ffffff;
+    background-color: f6b22d
+}
 
 h1 {
     font-family: Cuprum Bold;
@@ -11,9 +14,86 @@ h1 {
     font-weight: bold;
 }
 
-h2 {font-family: Cuprum Regular;
+h2 {
+    font-family: Cuprum Regular;
     font-size: 30px;
     line-height: 30px;
     color: 32425c;
-    }
+}
 
+.main-header {
+    background-color: 293449
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0px;
+    background-color: 32425c;
+}
+
+.logo {
+    float: left;
+    width: 221px;
+    height: 47px;
+    background-color: ee3643
+}
+
+.search {
+    float: left;
+    width: 122px;
+    height: 42px;
+    background-color: 4aafde;
+}
+
+.container-item {
+    float: right;
+    background-color: 85d179;
+    width: 434px;
+    height: 42px;
+}
+
+.main-header-item {
+    background-color: f1f5f7;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0px;
+    height: 157px;
+}
+
+.text {
+    float: left;
+    width: 310px;
+    height: 157px;
+    background-color: 4aafde;
+}
+
+.tel-address {
+    float: left;
+    width: 320px;
+    height: 157px;
+    background-color: cc79d1;
+}
+
+.user-block {
+    float: right;
+    width: 310px;
+    height: 157px;
+    background-color: f6b22d;
+}
+
+.main-navigation {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0px;
+    width: 940px;
+    height: 62px;
+    background-color: 32425c;
+    margin-bottom: 121px;
+}
