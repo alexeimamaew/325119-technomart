@@ -1,99 +1,221 @@
+html,
 body {
-    font-family: Cuprum Regular;
-    font-size: 17px;
-    line-height: 17px;
-    color: ffffff;
-    background-color: f6b22d
-}
-
-h1 {
-    font-family: Cuprum Bold;
-    font-size: 36px;
-    line-height: 30px;
-    color: ffffff;
-    font-weight: bold;
-}
-
-h2 {
-    font-family: Cuprum Regular;
-    font-size: 30px;
-    line-height: 30px;
-    color: 32425c;
-}
-
-.main-header {
-    background-color: 293449
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
 }
 
 .container {
     width: 940px;
     margin: 0 auto;
-    padding: 0 0px;
-    background-color: 32425c;
+    padding: 0 10px;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
 }
 
 .logo {
-    float: left;
-    width: 221px;
-    height: 47px;
-    background-color: ee3643
+    background-color: #ee3643;
+    width: 220px;
+    height: 42px;
 }
 
 .search {
-    float: left;
-    width: 122px;
+    background-color: #4aafde;
+    width: 270px;
     height: 42px;
-    background-color: 4aafde;
 }
 
 .container-item {
-    float: right;
-    background-color: 85d179;
-    width: 434px;
+    background-color: #85d179;
+    width: 450px;
     height: 42px;
+    margin-left: auto;
 }
 
 .main-header-item {
-    background-color: f1f5f7;
-    width: 940px;
-    margin: 0 auto;
-    padding: 0 0px;
-    height: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
+
+/*
+.main-header-item::before {
+  display: none;
+}
+*/
+
 .text {
-    float: left;
-    width: 310px;
-    height: 157px;
-    background-color: 4aafde;
+    width: 300px;
+    height: 112px;
+    background-color: #ee3643;
 }
 
 .tel-address {
-    float: left;
-    width: 320px;
-    height: 157px;
-    background-color: cc79d1;
+    width: 300px;
+    height: 112px;
+    background-color: #85d179;
 }
 
 .user-block {
-    float: right;
-    width: 310px;
-    height: 157px;
-    background-color: f6b22d;
+    width: 300px;
+    height: 112px;
+    background-color: #4aafde;
 }
 
 .main-navigation {
     width: 940px;
     margin: 0 auto;
     padding: 0 0px;
-    width: 940px;
     height: 62px;
-    background-color: 32425c;
+    background-color: #32425c;
     margin-bottom: 121px;
+}
+
+
+/*
+.main-header-layout::before {
+  / display: none; /
+}*/
+
+.promo-block {}
+
+.promo-block-topline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column4 {
+    width: 300px;
+    height: 122px;
+    background-color: #4aafde;
+}
+
+.promo-block-bottomline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 53px;
+}
+
+.main-slider {
+    width: 620px;
+    height: 267px;
+    background-color: #a49380;
+}
+
+.banner-delivery {}
+
+.popular {
+    width: 940px;
+    height: 90px;
+    background-color: #f7f3ec;
+}
+
+.pre-catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.list-brands li {
+    width: 220px;
+    height: 145px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+
+.list-brands {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 85px;
+}
+
+.services {
+    display: inline-block;
+    width: 560px;
+    height: 155px;
+    margin-top: 54px;
+    background-color: beige;
+}
+
+.services-background {
+    width: auto;
+    height: 523px;
+    background-color: #f2f6f8;
+}
+
+.block_with_map {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+    margin-bottom: 87px;
+}
+
+.about_company {
+    width: 540px;
+    height: 370px;
+    background-color: aqua;
+}
+
+.contacts {
+    width: 300px;
+    height: 370px;
+    background-color: aqua;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 34px;
+}
+
+.footer_logo {
+    width: 220px;
+    height: 68px;
+    background-color: aquamarine;
+}
+
+.footer-nav-top {
+    width: 550px;
+    background-color: aquamarine;
+}
+
+.address {
+    width: 380px;
+    background-color: aquamarine;
+}
+
+.footer-nav-bottom {
+    width: 540px;
+    background-color: aquamarine;
+}
+
+.main-footer-layout {
+    display: flex;
+}
+
+.footer-all-rights-reserved {
+    width: 240px;
+    margin-right: 140px;
+    background-color: bisque
+}
+
+.social_logo {
+    width: 160px;
+    background-color: bisque
+}
+
+.footer-copyright {
+    width: 310px;
+    margin-left: auto;
+    background-color: bisque
 }
