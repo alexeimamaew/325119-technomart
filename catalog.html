@@ -24,15 +24,15 @@
                         </form>
                     </div>
                     <div class="container-item container-item-catalog">
-                        <ul class="basket basket-catalog">
+                        <ul class="basket">
                             <li>
-                                <a class="bookmarks-link bookmarks-link-catalog" href="#">Закладки: 0</a>
+                                <a class="bookmarks-link" href="#">Закладки: 0</a>
                             </li>
                             <li>
                                 <a class="basket-link basket-link-catalog" href="#">Корзина: 10</a>
                             </li>
                             <li>
-                                <a href="#" class="order-link order-link-catalog">Оформить заказ</a>
+                                <a href="#" class="order-link">Оформить заказ</a>
                             </li>
                         </ul>
                     </div>
@@ -44,11 +44,12 @@
                     <br> строительных материалов
                     <br> и инструментов для ремонта</p>
                 <div class="tel-address tel-address-catalog">
-                    <span class="tel tel-catalog">+7 (812) 555-05-55</span>
-                    <span class="address address-catalog">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</span>
+                    <a class="tel tel-catalog">+7 (812) 555-05-55</a>
+                    <span class="address address-catalog">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
                 </div>
                 <div class="user-block-authorized">
-                    <a href="#"><span>Равшан Джамшутович</span></a>
+                    <a href="profile"><span>Равшан Джамшутович</span></a>
+                    <a  class="exit" href="exit"></a>
                     <ul>
                         <li><a class="login-catalog" href="#">Мои заказы</a></li>
                         <li><a class="registration-catalog" href="#">Личный кабинет</a></li>
@@ -58,7 +59,7 @@
             <nav class="main-navigation container">
                 <ul>
                     <li>
-                        <a href="#">Главная</a>
+                        <a href="index.html">Главная</a>
                     </li>
                     <li>
                         <a href="#">Компания</a>
@@ -84,7 +85,7 @@
     </header>
     <ul class="breadcrumb container">
         <li>
-            <a href="#" class="home"></a>
+            <a href="index.html" class="home"></a>
         </li>
         <li>
             <a href="#" class="catalog">Каталог</a>
@@ -101,7 +102,7 @@
     </div>
     <div class="catalog-filter container">
         <div class="column1">
-            <span class="filter">Фильтр:</span>
+            <div class="filter">Фильтр:</div>
             <form action="https://echo.htmlacademy.ru" method="get">
                 <fieldset class="price">
                     <legend>Цена:</legend>
@@ -181,7 +182,7 @@
         </div>
         <div class="column2">
             <div class="sorting">
-                <span>Сортировка:</span>
+                <div>Сортировка:</div>
                 <ul class="sort-by">
                     <li class="by-price">
                         <a href="#">По цене</a>
@@ -320,7 +321,7 @@
         <div class="footer-item-wrap">
             <div class="footer-item container">
                 <section class="footer-logo">
-                    <a href="#" class="logo footer-logo">Техномарт</a>
+                    <a href="index.html" class="logo footer-logo">Техномарт</a>
                 </section>
                 <section class="footer-nav-top">
                     <ul>
@@ -386,8 +387,8 @@
         <span> <p>Товар добавлен в корзину!</p> </span>
         <div class="wrap-checkout-continue">
             <div class="checkout-continue">
-                <a class="checkout link" type="submit">Оформить заказ</a>
-                <a class="continue" type="submit">Продолжить покупки</a>
+                <a class="checkout link" >Оформить заказ</a>
+                <a class="continue">Продолжить покупки</a>
             </div>
         </div>
     </div>
