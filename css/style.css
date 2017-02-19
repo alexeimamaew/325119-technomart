@@ -31,7 +31,7 @@ h2 {
     letter-spacing: -1px;
     color: #32425c;
     text-transform: uppercase;
-    padding-top: 65px;
+        padding-top: 62px;
 }
 
 h3 {
@@ -586,7 +586,7 @@ fieldset ul {
     padding-right: 80px;
     border-top: 2px solid #e5e5e5;
     padding-top: 16px;
-        margin-bottom: 3px;
+    margin-bottom: 3px;
 }
 
 .btn-show {
@@ -1431,6 +1431,17 @@ ul.sort-by {
     text-decoration: none;
 }
 
+.in-functionality,
+.by-price,
+.by-type {
+        padding-right: 47px;
+    padding-left: 20px;
+}
+
+.ascending {
+    padding-right: 22px;
+}
+
 .by-price a {
     color: #ee3643;
 }
@@ -1442,7 +1453,6 @@ ul.sort-by {
 
 .sort-by li {
     list-style-type: none;
-    padding: 0px 20px;
 }
 
 .in-functionality a {
@@ -1698,7 +1708,7 @@ a.next {
     border-radius: 5px;
     text-transform: uppercase;
     background-color: #ee3643;
-    margin-right: 8px;
+    margin-right: 4px;
     cursor: pointer;
 }
 
