@@ -122,8 +122,7 @@ label {
     min-height: 40px;
     vertical-align: middle;
     text-align: center;
-    cursor: pointer;
-}
+    }
 
 .search input {
     background-color: #293449;
