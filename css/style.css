@@ -39,7 +39,7 @@
         font-size: 30px;
         color: #000000;
         text-transform: uppercase;
-        margin-bottom: 24px;
+        margin-bottom: 26px;
     }
     
     .container {
@@ -50,6 +50,7 @@
     
     .link {
         display: inline-block;
+        vertical-align: top;
         font-family: Cuprum, Arial, sans-serif;
         font-size: 14px;
         line-height: 18px;
@@ -60,7 +61,6 @@
         background: #ee3643;
         border-radius: 3px;
         margin-right: 16px;
-        vertical-align: top;
         border: none;
         cursor: pointer;
         padding-top: 10px;
@@ -101,6 +101,7 @@
     
     .logo {
         display: inline-block;
+        vertical-align: top;
         width: 220px;
         min-height: 34px;
         font-size: 24px;
@@ -219,6 +220,7 @@
     .basket .bookmarks-link {
         position: relative;
         display: inline-block;
+        vertical-align: top;
         width: 150px;
         background-color: initial;
         padding-bottom: 11px;
@@ -264,6 +266,7 @@
     
     .order-link {
         display: inline-block;
+        vertical-align: top;
         padding: 11px 22px;
         background-color: #63a63e;
         color: #ffffff;
@@ -330,6 +333,7 @@
         font-family: Cuprum, Arial, sans-serif;
         font-size: 21px;
         color: #e9292a;
+        text-decoration: none;
         padding-left: 70px;
         padding-right: 50px;
         padding-bottom: 8px;
@@ -351,6 +355,7 @@
     
     .tel-address .address {
         display: inline-block;
+        vertical-align: top;
         font-family: Cuprum, Arial, sans-serif;
         font-size: 14px;
         color: #32425c;
@@ -377,6 +382,7 @@
     
     .user-block li {
         display: inline-block;
+        vertical-align: top;
     }
     
     .login {
@@ -659,6 +665,7 @@
     
     .column4 span {
         display: inline-block;
+        vertical-align: top;
         font-family: Cuprum, Arial, sans-serif;
         font-size: 24px;
         font-weight: bold;
@@ -943,6 +950,7 @@
         font-size: 13px;
         color: #000000;
         display: inline-block;
+        vertical-align: top;
         width: 560px;
         min-height: 132px;
         margin-top: 33px;
@@ -994,7 +1002,7 @@
     }
     
     p.second-p {
-        margin-bottom: 12px;
+        margin-bottom: 16px;
     }
     
     .about-company ul {
@@ -1020,6 +1028,7 @@
         margin-left: -39px;
         margin-right: 12px;
         display: inline-block;
+        vertical-align: top;
         margin-bottom: 6px;
         margin-top: 13px;
     }
@@ -1027,7 +1036,7 @@
     .about-company-link {
         width: 209px;
         padding: 10px 6px;
-        margin-top: 25px;
+        margin-top: 24px;
         left: 1px;
     }
     
@@ -1041,6 +1050,7 @@
     .contacts p {
         width: 200px;
         display: inline-block;
+        vertical-align: top;
         margin-top: 3px;
         margin-bottom: 33px;
         line-height: 1.7;
@@ -1108,6 +1118,7 @@
     
     .footer-nav-top a {
         display: inline-block;
+        vertical-align: top;
         text-decoration: none;
         font-family: Cuprum, Arial, sans-serif;
         color: #f1f5f7;
@@ -1183,16 +1194,17 @@
     
     .social-logo {
         display: inline-block;
+        vertical-align: top;
         padding-top: 37px;
         margin-left: 17px;
     }
     
     .social-btn {
         display: inline-block;
+        vertical-align: top;
         width: 40px;
         height: 40px;
         margin: 0 1px;
-        vertical-align: top;
         border-radius: 50%;
         background: #212a3a url("../img/sprites.png") no-repeat center;
     }
@@ -1289,11 +1301,13 @@
     .user-block-authorized span {
         position: relative;
         display: inline-block;
+        vertical-align: top;
         font-family: Cuprum, Arial, sans-serif;
         font-size: 21px;
         color: #000000;
         text-decoration: none;
         padding-left: 38px;
+        padding-bottom: 4px;
     }
     
     a.login-catalog {
@@ -1339,6 +1353,7 @@
     .exit::after {
         content: "";
         display: inline-block;
+        vertical-align: top;
         width: 21px;
         height: 17px;
         background: url(../img/sprites.png) no-repeat;
@@ -1525,6 +1540,7 @@
     
     .ascending a::before {
         display: inline-block;
+        vertical-align: top;
         content: "";
         width: 11px;
         height: 10px;
@@ -1534,6 +1550,7 @@
     
     .descending a::after {
         display: inline-block;
+        vertical-align: top;
         content: "";
         width: 11px;
         height: 10px;
@@ -1549,6 +1566,7 @@
     .catalog-item {
         position: relative;
         display: inline-block;
+        vertical-align: top;
         width: 218px;
         min-height: 316px;
         margin-right: 20px;
@@ -1699,6 +1717,7 @@
     
     .catalog-item .new-price {
         display: inline-block;
+        vertical-align: top;
         position: relative;
         width: 142px;
         background: #ee3643;
@@ -1885,6 +1904,7 @@
     .price-controls label {
         font-size: 17px;
         display: inline-block;
+        vertical-align: top;
         width: 50%;
     }
     
@@ -1940,6 +1960,7 @@
     
     .slider-controls label {
         display: inline-block;
+        vertical-align: top;
         width: 6px;
         height: 6px;
         margin: 0 3px;
@@ -2079,6 +2100,7 @@
     
     .slider-service-controls label {
         display: inline-block;
+        vertical-align: top;
         font-family: Cuprum, Arial, sans-serif;
         font-size: 21px;
         font-weight: bold;
@@ -2248,6 +2270,7 @@
         font-family: Cuprum, Arial, sans-serif;
         margin-bottom: 11px;
         display: inline-block;
+        vertical-align: top;
         text-transform: none;
         font-size: 18px;
         line-height: 18px;
@@ -2349,6 +2372,7 @@
     
     .continue {
         display: inline-block;
+        vertical-align: top;
         font-family: Cuprum, Arial, sans-serif;
         font-size: 14px;
         line-height: 18px;
