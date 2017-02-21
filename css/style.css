@@ -1344,12 +1344,13 @@
         background: url(../img/sprites.png) no-repeat;
         background-position: -6px -101px;
         position: absolute;
-        top: 11px;
-        left: 269px;
+        top: 4px;
+        left: 0px;
     }
     
     a.exit {
         width: 21px;
+        position: relative;
     }
     
     .breadcrumb {
