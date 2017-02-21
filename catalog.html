@@ -19,17 +19,19 @@
                         <a href="index.html" class="logo">Техномарт</a>
                     </div>
                     <div class="search search-catalog">
-                        <form>
-                            <input type="search" name="q" placeholder="Поиск:" id="site-search">
+                        <form action="https://echo.htmlacademy.ru" method="post">
+                            <div class="search-input">
+                                <input type="search" name="q" placeholder="Поиск:" id="site-search">
+                            </div>
                         </form>
                     </div>
                     <div class="container-item container-item-catalog">
                         <ul class="basket">
                             <li>
-                                <a class="bookmarks-link" href="#">Закладки: 0</a>
+                                <a class="bookmarks-link menu-active" href="#">Закладки: 0</a>
                             </li>
                             <li>
-                                <a class="basket-link basket-link-catalog" href="#">Корзина: 10</a>
+                                <a class="basket-link menu-active" href="#">Корзина: 10</a>
                             </li>
                             <li>
                                 <a href="#" class="order-link">Оформить заказ</a>
@@ -40,16 +42,16 @@
             </div>
 
             <div class="main-header-item container">
-                <p class="text text-catalog">Интернет-магазин
-                    <br> строительных материалов
-                    <br> и инструментов для ремонта</p>
-                <div class="tel-address tel-address-catalog">
-                    <a class="tel tel-catalog">+7 (812) 555-05-55</a>
-                    <span class="address address-catalog">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+                <p class="text">Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта</p>
+                <div class="tel-address">
+                    <a class="tel">+7 (812) 555-05-55</a>
+                    <span class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
                 </div>
                 <div class="user-block-authorized">
-                    <a href="profile"><span>Равшан Джамшутович</span></a>
-                    <a class="exit" href="exit"></a>
+                    <div class="user-block-profile">
+                        <a href="profile"><span>Равшан Джамшутович</span></a>
+                        <a class="exit" href="exit"></a>
+                    </div>
                     <ul>
                         <li><a class="login-catalog" href="#">Мои заказы</a></li>
                         <li><a class="registration-catalog" href="#">Личный кабинет</a></li>
@@ -103,7 +105,7 @@
     <div class="catalog-filter container">
         <div class="column1">
             <div class="filter">Фильтр:</div>
-            <form action="https://echo.htmlacademy.ru" method="get">
+            <form action="https://echo.htmlacademy.ru" method="post">
                 <fieldset class="price">
                     <legend>Цена:</legend>
                     <div class="range-filter">
@@ -313,8 +315,7 @@
         <div class="about-punchers container">
             <h2>Пара слов о перфораторах</h2>
             <p>Перфоратор – универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
-                <br> Существуют элктромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
-                <br> ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+                <br> Существуют элктромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
         </div>
     </div>
     <footer class="main-footer">
@@ -343,8 +344,7 @@
                     </ul>
                 </section>
                 <section class="address">
-                    <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-                        <br> +7 (812) 555-05-55</p>
+                    <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
                 </section>
                 <section class="footer-nav-bottom">
                     <ul>
@@ -372,11 +372,11 @@
                     <a class="social-btn social-btn-inst" href="#"></a>
                 </section>
                 <section class="footer-copyright">
-                    <span class="e-mail">Обратная связь:<br> 
-                        <a class="e-mail-academy">mail@htmlacademy.ru</a>
+                    <span class="e-mail">Обратная связь:
+                        <a href="#" class="e-mail-academy">mail@htmlacademy.ru</a>
                     </span>
-                    <span class="site">Разработано – <br>
-                <a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>
+                    <span class="site">Разработано – 
+                        <a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>
                     </span>
                 </section>
             </div>
@@ -393,11 +393,3 @@
         </div>
     </div>
 </body>
-    
-    
-    
-    
-    
-    
-    
-    
