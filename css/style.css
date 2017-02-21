@@ -1348,6 +1348,10 @@
         left: 269px;
     }
     
+    a.exit {
+        width: 21px;
+    }
+    
     .breadcrumb {
         margin: auto;
     }
