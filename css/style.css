@@ -133,7 +133,7 @@
         color: #ffffff;
         outline: none;
         padding-left: 32px;
-        min-height: 42px;
+        min-height: 40px;
     }
     
     .search input::-webkit-input-placeholder {
