@@ -1351,6 +1351,7 @@
     a.exit {
         width: 21px;
         position: relative;
+        display: block;
     }
     
     .breadcrumb {
