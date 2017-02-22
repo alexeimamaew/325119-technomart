@@ -39,7 +39,7 @@
         font-size: 30px;
         color: #000000;
         text-transform: uppercase;
-        margin-bottom: 26px;
+        margin-bottom: 21px;
     }
     
     .container {
@@ -282,7 +282,7 @@
         box-sizing: border-box;
     }
     
-    .menu-active {
+   .basket .menu-active {
         background-color: #ee3643;
     }
     
@@ -658,7 +658,7 @@
         line-height: 18px;
         text-transform: uppercase;
         padding: 10px 39px;
-        margin-top: 67px;
+        margin-top: 66px;
         cursor: pointer;
     }
     
@@ -966,7 +966,7 @@
         width: 400px;
         line-height: 1.8;
         padding-left: 3px;
-        margin-bottom: 7px;
+       margin-bottom: 10px;
     }
     
     .services-background {
@@ -984,7 +984,7 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
         margin-top: 80px;
-        margin-bottom: 86px;
+       margin-bottom: 84px;
     }
     
     .about-company {
@@ -1447,7 +1447,7 @@
     .title-punchers {
         min-height: 88px;
         background: #f2f6f8;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     
     .column1 {
@@ -1814,7 +1814,7 @@
     
     .about-punchers p {
         margin: 0;
-        padding-bottom: 68px;
+        padding-bottom: 70px;
         line-height: 24px;
     }
     
@@ -1913,7 +1913,7 @@
     }
     
     fieldset.producers {
-        margin-bottom: 12px;
+        margin-bottom: 10px;
     }
     
     .max-price {
