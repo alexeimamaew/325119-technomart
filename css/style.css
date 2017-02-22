@@ -449,11 +449,15 @@
     }
     
     .login-catalog::after {
-        content: "•";
+        content: "";
         position: absolute;
-        top: 1px;
-        left: 88px;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        top: 7px;
+        left: 90px;
         color: #32425c;
+        background-color: black;
         font-family: "PT Sans", Arial, sans-serif;
         font-size: 15px;
         text-decoration: none;
@@ -1526,7 +1530,7 @@
     
     .by-type a {
         color: #cbc8c2;
-        border-bottom: 2px dotted red;
+        border-bottom: 1px dotted red;
     }
     
     .sort-by li {
@@ -1535,7 +1539,7 @@
     
     .in-functionality a {
         color: #cbc8c2;
-        border-bottom: 2px dotted red;
+        border-bottom: 1px dotted red;
     }
     
     .ascending a::before {
