@@ -1540,7 +1540,7 @@
     
     .ascending a::before {
         display: inline-block;
-        vertical-align: top;
+        vertical-align: middle;
         content: "";
         width: 11px;
         height: 10px;
@@ -1550,7 +1550,7 @@
     
     .descending a::after {
         display: inline-block;
-        vertical-align: top;
+        vertical-align: middle;
         content: "";
         width: 11px;
         height: 10px;
